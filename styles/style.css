@@ -1,7 +1,452 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
 *
 {
-    
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #FF8427;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.fa-bars {display: none;}
+
+.fix {
+    height: 65px;
+    width: 100%;
+    background-color: #8BBD8B;
+}
+
+h3 {
+    margin: 0;
+   
+}
+
+h4 {
+    margin: 0;
+}
+
+#logo, li, img, .button, .fa-bars, #main-nav {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms;}
+
+/*Header*/
+
+header {
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+    background: #343a40; 
+    position: fixed;
+}
+
+#logo:hover {
+    opacity: 0.5;
+}
+
+#logo {
+    width: 140px;
+    float: left;
+    margin: 15px 0 0 1%;
+}
+
+header div p {
+    float: right;
+    margin: 10px 0 0 0;
+    color: #FF8427;
+}
+
+#bild {
+    width: 25%;
+}
+
+header nav {
+    float: right;
+    margin: 10px 50px 0 0px;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+}
+
+header nav ul li:hover {
+    padding-top: 5px;
+} 
+
+/*Start*/
+
+#main1 {
+    margin-top: 70px;
+    height: 100%;
+}
+
+#main1 {
+    background: url(../Bild9.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#start {
+    width: 400px;
+    padding-top: 20%;
+    padding-left: 30%;
+
+}
+
+#Text {
+    display: flex;
+    justify-content: center;
+}
+
+.Pfeil {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#bildpfeil {
+    height: 20%;
+    
+}
+
+/*About*/
+
+#main2 {
+    height: 100%;
+    background-color: #6CAE75 ;
+}
+
+.widget {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#box1, #box4{
+    background-color: #8BBD8B;
+}
+
+#rocket1 {
+    width: 20%;
+}
+
+#main2 p {
+    padding: 0 100 0 100; 
+    font-size: 2rem;
+}
+
+#rechner {
+    width: 50%;
+}
+
+/*Fach berechnen*/ 
+
+#main3 {
+    height: 50%;
+    background-color: #fbf8cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ta1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ta3 {
+    padding-top: 5%;
+}
+
+#main3 h3 {
+    padding-bottom: 5%;
+}
+
+#ta2 p input {
+    margin: 5px;
+}
+
+#ta1 input {
+    padding: 8px;
+}
+
+#main3 h3 {
+    font-size: 2rem;
+}
+
+/*Abischnitt berechnen*/ 
+
+#main4 {
+    height: 120%;
+    background-color: #7D6F86;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main4 input {
+    margin: 5px;
+    padding: 8px;
+}
+
+#main4 h4 {
+    margin: 10px 0 10px 0;
+}
+
+#xxx {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#main4 h3 {
+    margin: 20px 0 10px 0;;
+}
+
+
+
+/*Class und IDs von Fach berechnen wurden verwendet*/
+
+
+
+/*Get our Web-App*/
+
+#main5 {
+    height: 100%;
+    background-color: #A0DDFF;
+}
+
+.widgetApp {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.boxApp {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#box1App, #box4App{
+    background-color: #758ECD;
+}
+
+#Teilen1App {
+    width: 40%;
+}
+
+#main5 p {
+    padding: 0 100 0 100; 
+    font-size: 2rem;
+    
+}
+
+#Anleitung2 {
+    width: 40%;
+}
+
+/*Contact*/ 
+
+#main6 {
+    height: 50%;
+    width: 100%;
+    background-color: #fbf8cc;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.divcont {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rechterCont {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #fefae0;
+
+    
+    
+}
+
+.rechterCont1 {
+    width: 50%;
+    height: 100%;
+    
+    
+    
+    
+}
+
+.fixx {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#rechterCont2 {
+    background-color: #dda15e;
+}
+
+.insta1 {
+    padding-top: 10%;
+}
+
+.insta2 {
+    height: 130px;
+}
+
+.fixx {
+    padding-top: 15%;
+}
+
+.fixx p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*Contact-Form*/
+
+form input, textarea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: #494949;
+    outline: none;
+}
+
+form input {
+    width: 550px;
+    height: 30px;
+}
+
+form textarea {
+    width: 550px;
+    height: 200px;
+    resize: none;
+}
+
+.input_text {
+    color:#494949;
+    padding-left: 10px;
+}
+
+form input:first-child {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #494949;
+    color: #f9f9f9;
+    width: 550px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color:#f0f0f0;
+    color: #494949;
+}
+
+/*Footer*/
+
+#footer {
+    height: 5%;
+    background-color: #343a40;
+    
+}
+
+footer div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div a p {
+    color: #FF8427;
+}
+
+/*Impressum*/
+
+#impressum {
+    margin: 5% 5% 5% 5%;
+    color: black;
+    
+}
+
+#impressum a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

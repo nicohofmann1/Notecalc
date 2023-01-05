@@ -1,120 +1,281 @@
 <html>
     <head>
+        <title>Notecalc.</title>
         <link rel="stylesheet" href="styles/style.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content= "width=device-width, user-scalable=no">
         <meta charset="utf-8">
+        <link rel="icon" href="Logo.jpg">
+        <link rel="apple-touch-icon" href="Logo.jpg">
+
     </head>
     <body>
+        
+<!-- Navigation-->
+
         <header>
-            <h1>Abirechner</h1>
+                <div id="logo">
+                    <a href="#">
+                        <img src="Logo.jpg" alt="Logo" id="bild">
+                    </a>
+                    <p>Notecalc.</p>
+                </div>
+    
+                <nav id="main-nav">
+                    <i class="fas fa-bars"></i>
+                    <ul>
+                        <li><a href="#main1">Start</a></li>
+                        <li><a href="#main2">About</a></li>
+                        <li><a href="#main3">Fach berechnen</a></li>
+                        <li><a href="#main4">Abischnitt berechnen</a></li>
+                        <li><a href="#main5">Get our Web-App</a></li>
+                        <li><a href="#main6">Contact</a></li>
+                    </ul>
+                </nav>
         </header>
+
+<!--Start-->
+
         <main>
-            <h3>Fach Note berechnen</h3>
-            <p>
-                <input name="schriftlich1" placeholder="Q1 schriftlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q1 schriftlich 2" class="Note">
-                <input name="schriftlich1" placeholder="Q1 mündlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q1 mündlich 2" class="Note">
-            </p>
-            <p>
-                <input name="schriftlich1" placeholder="Q2 schriftlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q2 schriftlich 2" class="Note">
-                <input name="schriftlich1" placeholder="Q2 mündlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q2 mündlich 2" class="Note">
-            </p>
-            <p>
-                <input name="schriftlich1" placeholder="Q3 schriftlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q3 schriftlich 2" class="Note">
-                <input name="schriftlich1" placeholder="Q3 mündlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q3 mündlich 2" class="Note">
-            </p>
-            <p>
-                <input name="schriftlich1" placeholder="Q4 schriftlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q4 schriftlich 2" class="Note">
-                <input name="schriftlich1" placeholder="Q4 mündlich 1" class="Note">
-                <input name="schriftlich1" placeholder="Q4 mündlich 2" class="Note">
-            </p>
+            <section id="main1">
+                <div id="start">
+                    <div id="Text">
+                        <h1 id="Getstarted">Start Your Notecalc. Adventure!</h1>
+                    </div>
+                    <div class="Pfeil">
+                        <a href="#main2" class="Pfeil">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" alt="Pfeil" id="bildpfeil">
+                     </a>
+                    </div>
+                </div>
+            </section>
 
-            <input type="text" name="ergebnis fach" placeholder="Ergebnis" id="Ergebnis" value="">
-
-            <script src="abirechner.js"></script>
-
-
-            <h3>Abischnitt berechnen</h3>
             
-            <h4>Leistungskurse</h4>
-                <p>
-                    <input name="LK1 Q1" placeholder="LK1 Q1 (2x)" class="LKNote">
-                    <input name="LK1 Q2" placeholder="LK1 Q1 (2x)" class="LKNote">
-                    <input name="LK1 Q3" placeholder="LK1 Q1 (2x)" class="LKNote">
-                    <input name="LK1 Q4" placeholder="LK1 Q4 (2x)" class="LKNote">
-                    <input name="LK1 Prüfung" placeholder="LK1 Abi (4x)" class="Pruefung">
-                </p>
+
+<!--About-->  
+
+
+
+<section id="main2">
+    
+    <div class="widget">
+        <div class="box" id="box1">
+            <img src="Rocket1.svg" alt="Rocket" id="rocket1">
+        </div>
+
+        <div class="box" id="box2">
+            <p>Noteclac. leitet sich aus dem Deutschen Wort "Note" und dem Englischen "Calculator" für Taschenrechner ab. Mithilfe von Notecalc. lässt sich transparent und unkompliziert Dein Abischnitt oder Halbjahresnoten ausrechnen. Probiere es aus!  </p>
+        </div>
+        
+    </div>
+    <div class="widget">
+        <div class="box" id="box3">
+            <p>Noteclac. wurde mithilfe von JS entwickelt und berücksichtigt die Abiturvorgaben im Bundesstaat Hessen.</p>
+        </div>
+        <div class="box" id="box4">
+            <img src="https://cdn.pixabay.com/photo/2012/04/01/13/08/calculator-23414_960_720.png" alt="Rechner" id="rechner">
+
+        </div>
+
+    </div>
+
+
+
+
+
+</section>
+
+<!--Fach berechnen-->
+    
+            <section id="main3">
+                <h3>Fach berechnen</h3>
+                <div id="ta1">
+                    <div id="ta2">
+                        <p>
+                            <input name="schriftlich1" placeholder="Q1 schriftlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q1 schriftlich 2" class="Note">
+                            <input name="schriftlich1" placeholder="Q1 mündlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q1 mündlich 2" class="Note">
+                        </p>
+                        <p>
+                            <input name="schriftlich1" placeholder="Q2 schriftlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q2 schriftlich 2" class="Note">
+                            <input name="schriftlich1" placeholder="Q2 mündlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q2 mündlich 2" class="Note">
+                        </p>
+                        <p>
+                            <input name="schriftlich1" placeholder="Q3 schriftlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q3 schriftlich 2" class="Note">
+                            <input name="schriftlich1" placeholder="Q3 mündlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q3 mündlich 2" class="Note">
+                        </p>
+                        <p>
+                            <input name="schriftlich1" placeholder="Q4 schriftlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q4 schriftlich 2" class="Note">
+                            <input name="schriftlich1" placeholder="Q4 mündlich 1" class="Note">
+                            <input name="schriftlich1" placeholder="Q4 mündlich 2" class="Note">
+                        </p>
+                    </div>
+
+                    <div id="ta3">
+                        <input type="text" name="ergebnis fach" placeholder="Ergebnis" id="Ergebnis" value="">
+                    </div>
+                </div>
+
+             <script src="abirechner.js"></script>
+
+            </section>
+
+<!--Abischnitt berechnen-->
+
+            <section id="main4">
+
+                <h3 id="xxx">Abischnitt berechnen</h3>
+
+                <div id="ta1">
+                    <div id="ta1">
                 
-                <p>
-                    <input name="LK2 Q1" placeholder="LK2 Q1 (2x)" class="LKNote">
-                    <input name="LK2 Q1" placeholder="LK2 Q2 (2x)" class="LKNote">
-                    <input name="LK2 Q1" placeholder="LK2 Q3 (2x)" class="LKNote">
-                    <input name="LK2 Q1" placeholder="LK2 Q4 (2x)" class="LKNote">
-                    <input name="LK2 Q1" placeholder="LK2 Abi (4x)" class="Pruefung">
-                </p>
+                        <h3>Leistungskurse</h3>
 
-            <h4>Grundkurse</h4>
+                            <div>
 
-            <p>
-                <input name="3. Q1" placeholder="3. Prüfungsfach Q1 (1x)" class="GKNote">
-                <input name="3. Q2" placeholder="3. Prüfungsfach Q2 (1x)" class="GKNote">
-                <input name="3. Q3" placeholder="3. Prüfungsfach Q3 (1x)" class="GKNote">
-                <input name="3. Q4" placeholder="3. Prüfungsfach Q4 (1x)" class="GKNote">
-                <input name="3. Prüfung" placeholder="3. Prüfungsfach Abi (4x)" class="Pruefung">
-            </p>
+                                <p>
+                                    <input name="LK1 Q1" placeholder="LK1 Q1 (2x)" class="LKNote">
+                                    <input name="LK1 Q2" placeholder="LK1 Q1 (2x)" class="LKNote">
+                                    <input name="LK1 Q3" placeholder="LK1 Q1 (2x)" class="LKNote">
+                                    <input name="LK1 Q4" placeholder="LK1 Q4 (2x)" class="LKNote">
+                                    <input name="LK1 Prüfung" placeholder="LK1 Abi (4x)" class="Pruefung">
+                                </p>
+                                
+                                <p>
+                                    <input name="LK2 Q1" placeholder="LK2 Q1 (2x)" class="LKNote">
+                                    <input name="LK2 Q1" placeholder="LK2 Q2 (2x)" class="LKNote">
+                                    <input name="LK2 Q1" placeholder="LK2 Q3 (2x)" class="LKNote">
+                                    <input name="LK2 Q1" placeholder="LK2 Q4 (2x)" class="LKNote">
+                                    <input name="LK2 Q1" placeholder="LK2 Abi (4x)" class="Pruefung">
+                                </p>
 
-            <p>
-                <input name="4. Q1" placeholder="4. Prüfungsfach Q1 (1x)" class="GKNote">
-                <input name="4. Q2" placeholder="4. Prüfungsfach Q2 (1x)" class="GKNote">
-                <input name="4. Q3" placeholder="4. Prüfungsfach Q3 (1x)" class="GKNote">
-                <input name="4. Q4" placeholder="4. Prüfungsfach Q4 (1x)" class="GKNote">
-                <input name="4. Prüfung" placeholder="4. Prüfungsfach Abi (4x)" class="Pruefung">
-            </p>
+                            </div>
 
-            <p>
-                <input name="5. Q1" placeholder="5. Prüfungsfach Q1 (1x)" class="GKNote">
-                <input name="5. Q2" placeholder="5. Prüfungsfach Q2 (1x)" class="GKNote">
-                <input name="5. Q3" placeholder="5. Prüfungsfach Q3 (1x)" class="GKNote">
-                <input name="5. Q4" placeholder="5. Prüfungsfach Q4 (1x)" class="GKNote">
-                <input name="5. Prüfung" placeholder="5. Prüfungsfach Abi (4x)" class="Pruefung">
-            </p>
+                        <h3>Grundkurse</h3>
 
+                            <div>
 
-            <h4>Weitere Grundkurse</h4>
+                                <p>
+                                    <input name="3. Q1" placeholder="3. Prüfungsfach Q1 (1x)" class="GKNote">
+                                    <input name="3. Q2" placeholder="3. Prüfungsfach Q2 (1x)" class="GKNote">
+                                    <input name="3. Q3" placeholder="3. Prüfungsfach Q3 (1x)" class="GKNote">
+                                    <input name="3. Q4" placeholder="3. Prüfungsfach Q4 (1x)" class="GKNote">
+                                    <input name="3. Prüfung" placeholder="3. Prüfungsfach Abi (4x)" class="Pruefung">
+                                </p>
 
-            <p>
-                <p>
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                </p>
-                <p>
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                </p>
-                <p>
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                </p>
-                <p>
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                </p>
-                <p>
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                </p>
-                <p>
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                    <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
-                </p>
-                
-            </p>
+                                <p>
+                                    <input name="4. Q1" placeholder="4. Prüfungsfach Q1 (1x)" class="GKNote">
+                                    <input name="4. Q2" placeholder="4. Prüfungsfach Q2 (1x)" class="GKNote">
+                                    <input name="4. Q3" placeholder="4. Prüfungsfach Q3 (1x)" class="GKNote">
+                                    <input name="4. Q4" placeholder="4. Prüfungsfach Q4 (1x)" class="GKNote">
+                                    <input name="4. Prüfung" placeholder="4. Prüfungsfach Abi (4x)" class="Pruefung">
+                                </p>
 
+                                <p>
+                                    <input name="5. Q1" placeholder="5. Prüfungsfach Q1 (1x)" class="GKNote">
+                                    <input name="5. Q2" placeholder="5. Prüfungsfach Q2 (1x)" class="GKNote">
+                                    <input name="5. Q3" placeholder="5. Prüfungsfach Q3 (1x)" class="GKNote">
+                                    <input name="5. Q4" placeholder="5. Prüfungsfach Q4 (1x)" class="GKNote">
+                                    <input name="5. Prüfung" placeholder="5. Prüfungsfach Abi (4x)" class="Pruefung">
+                                </p>
+
+                            </div>
+
+                        <h3>Weitere Grundkurse</h3>
+
+                                <div>
+
+                                <p>
+                                    <p>
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                    </p>
+                                    <p>
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                    </p>
+                                    <p>
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                    </p>
+                                    <p>
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                    </p>
+                                    <p>
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                    </p>
+                                    <p>
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                        <input name="GK extra" placeholder="Halbjahresnote GK" class="GKextraNote">
+                                    </p>
+                                    
+                                </p>
+
+                                </div>
+
+                    </div>
+
+                <h3>Ergebnisse</h4>
+
+                    <div id="ta1">
+                    
+                        <h4>Summe Leistungskurse</h4>
+                        
+                        <p>
+                            <Input id="SummeLeistungskurse">
+                        </p>
+
+                        <h4>Summe Grundkurse</h4>
+
+                        <p>
+                            <Input id="SummeGrundkurs">
+                        </p>
+
+                        <h4>Summe weitere Grundkurse</h4>
+
+                        <p>
+                            <Input id="SummeWeitereGrundkurse">
+                        </p>
+
+                        <h4>Summe Abiprüfungen</h4>
+
+                        <p>
+                            <Input id="SummeAbibereich">
+                        </p>
+
+                        <h4>Gesamtpunktzahl im Abitur</h4>
+
+                        <p>
+                            <Input id="Gesamtpunktzahl">
+                        </p>
+
+                        <h4>Gesamtnote</h4>
+
+                        <p>
+                            <Input id="Gesamtnote">
+                        </p>
+
+                    </div>
+
+                </div>
+        
+
+        </section>
+
+<!--Umrechnungstabelle-->
+
+<!--Nicht nötig!-->
+
+<!--
+        <section>
             <h4>Umrechnungstabelle</h4>
 
             <table border="1px solid black">
@@ -248,43 +409,100 @@
                 </tr>
             </table>
 
-            <h4>Ergebnisse</h4>
-            
-            <h6>Summe Leistungskurse</h6>
-            
+
+        </section>
+
+        -->
+
+<!--Get our Web-App-->
+
+    
+
+        <section id="main5">
+    
+            <div class="widgetApp">
+                <div class="boxApp" id="box1App">
+                    <img src="Anleitung1" alt="Anleitung1" id="Teilen1App">
+                </div>
+        
+                <div class="boxApp" id="box2App">
+                    <p>Notecalc. kann auch als praktische Web-App auf iPhone und Android-Handys genutzt werden. Dazu muss die Noteclac. Webanwendung als Lesezeichung zum Homebildschirm hinzugefügt werden. Nutzen Sie dazu die Teilenfunktion an Ihrem iPhone und folgen Sie den weiteren Anweisungen.</p>
+                </div>
+                
+            </div>
+            <div class="widgetApp">
+                <div class="boxApp" id="box3App">
+                    <p>Als nächstes drücken Sie auf "Zum Home-Bildschirm". Dadurch erstellen Sie eine Verknüpfung zur Website im App Format. Das Notecalc. Logo wird übernommen.</p>
+                </div>
+                <div class="boxApp" id="box4App">
+                    <img src="Anleitung2" alt="Rechner" id="Anleitung2">
+        
+                </div>
+        
+            </div>
+    </section>
+
+
+<!--Contact-->
+
+    <section id="main6">
+        <div class="divcont">
+            <div>
+                <form>
+                    <input class="input_text" type="email" tabindex="1" placeholder="e-mail"><br>
+                    <input class="input_text" type="text" tabindex="2" placeholder="subject"><br>
+                    <textarea class="input_text" tabindex="3" placeholder="message"></textarea><br>
+                    <input type="submit" class="button"> 
+                </form>
+            </div>
+        </div>
+        <div class="divcont">
+            <div id="rechterCont">
+                
+                <div class="rechterCont1">
+                    <div class="fixx">
+                        <a href="https://www.instagram.com/nicohofmann__/" class="insta1">
+                            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram" class="insta2">
+                        </a>
+                    </div>
+                    <div class="fixx">
+                        <p> Nico Hofmann <br><br>Web- und Design-Development</p>
+                    </div> 
+                </div>
+
+                <div class="rechterCont1" id="rechterCont2">
+                    <div class="fixx">
+                        <a href="https://www.instagram.com/linusk2004/" class="insta1">
+                            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram" class="insta2">
+                        </a>
+                    </div>
+                    <div class="fixx">
+                        <p>Linus Kronenberger <br><br>Implementation und Logics</p>
+                    </div>
+            </div>
+
+
+        </div>
+       
+
+
+    </section>
+
+</main>
+
+<!--Footer-->
+
+    <footer id="footer">
+        <div>
+        <a href="impressum.html">
             <p>
-                <Input id="SummeLeistungskurse">
+                &copy Notecalc. 2023 - Impressum
             </p>
+        </a>
+    </div>
 
-            <h6>Summe Grundkurse</h6>
+    </footer>
 
-            <p>
-                <Input id="SummeGrundkurs">
-            </p>
-
-            <h6>Summe weitere Grundkurse</h6>
-
-            <p>
-                <Input id="SummeWeitereGrundkurse">
-            </p>
-
-            <h6>Summe Abiprüfungen</h6>
-
-            <p>
-                <Input id="SummeAbibereich">
-            </p>
-
-            <h6>Gesamtpunktzahl im Abitur</h6>
-
-            <p>
-                <Input id="Gesamtpunktzahl">
-            </p>
-
-            <h6>Gesamtnote</h6>
-
-            <p>
-                <Input id="Gesamtnote">
-            </p>
-        </main>
+        
     </body>
 </html>
