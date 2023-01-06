@@ -206,8 +206,16 @@ header nav ul li:hover {
 }
 
 #main3 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
+#ta99 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /*Abischnitt berechnen*/ 
 
@@ -237,6 +245,8 @@ header nav ul li:hover {
 #main4 h3 {
     margin: 20px 0 10px 0;;
 }
+
+
 
 
 
@@ -425,6 +435,65 @@ footer div a p {
 
 #impressum a {
     color: black;
+}
+
+/*iPad Version*/
+
+@media screen and (max-width: 1366px) {
+
+    #main2 p {
+        font-size: 1rem;
+    }
+
+    #main3 h3 {
+        font-size: 1.2rem;
+    }
+
+    #ta1 input {
+        padding: 4px;
+    } 
+
+    #main4 #xxx {
+        font-size: 1.3rem;
+    } 
+
+    #main4 h3 {
+        font-size: 1.2rem;
+    } 
+
+    #ta99 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+
+    #ta99 input {
+        width: 100px;
+    } 
+
+    #main5 p {
+        font-size: 1rem;
+    } 
+
+    #main6 input, #main6 textarea  {
+        width: 400px;
+    }
+
+    .insta1 {
+        height: 60px;
+        width: 60px;
+    } 
+
+    .insta2 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .fixx p {
+        font-size: 1rem;
+    } 
 }
 
 
