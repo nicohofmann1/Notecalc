@@ -6,6 +6,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
 a {
     text-decoration: none;
     color: #FF8427;
@@ -440,6 +445,8 @@ footer div a p {
 @media screen and (max-width: 1366px) {
 
 
+
+
     #main1 {
         background-image: url(../Bild11.jpg);
         background-position: center center;
@@ -514,6 +521,7 @@ footer div a p {
     
 
     #main1 {
+        background-image: none;
         background-color: #758ECD;
         background-position: center center;
         background-size: cover;
