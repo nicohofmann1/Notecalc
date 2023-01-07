@@ -23,8 +23,6 @@ p {
     margin: 0;
 }
 
-.fa-bars {display: none;}
-
 .fix {
     height: 65px;
     width: 100%;
@@ -40,7 +38,11 @@ h4 {
     margin: 0;
 }
 
-#logo, li, img, .button, .fa-bars, #main-nav {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms;}
+.fa-bars {
+    display: none;
+}
+
+#logo, li, img, .button, .toggel, #main-nav, #fa-bars {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms;}
 
 /*Header*/
 
@@ -99,7 +101,7 @@ header nav ul li:hover {
 }
 
 #main1 {
-    background: url(../Bild9.jpg);
+    background-image: url(../Bild9.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -320,18 +322,14 @@ header nav ul li:hover {
     width: 100%;
     display: flex;
     background-color: #fefae0;
-
-    
-    
 }
 
 .rechterCont1 {
     width: 50%;
     height: 100%;
-    
-    
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fixx {
@@ -441,6 +439,15 @@ footer div a p {
 
 @media screen and (max-width: 1366px) {
 
+
+    #main1 {
+        background-image: url(../Bild11.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+    }
+
     #main2 p {
         font-size: 1rem;
     }
@@ -481,6 +488,10 @@ footer div a p {
         width: 400px;
     }
 
+    #main6 textarea {
+        height: 100px;
+    }
+
     .insta1 {
         height: 60px;
         width: 60px;
@@ -495,6 +506,146 @@ footer div a p {
         font-size: 1rem;
     } 
 }
+
+/*Handy Version */
+
+@media screen and (max-width: 910px) {
+
+    
+
+    #main1 {
+        background-color: #758ECD;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+    }
+
+    #start {
+        padding-left: 0;
+        padding-top: 170px;
+
+    }
+
+    #main3 {
+        height: 100%;
+    }
+
+    #main4 {
+        height: 200%;
+    }
+
+    #main5 p {
+        font-size: 0.7rem;
+    }
+
+    #main2 p {
+        font-size: 0.7rem;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    #Teilen1App {
+        width:80% ;
+    }
+
+    #Anleitung2 {
+        width: 80%;
+    }
+
+    #rocket1 {
+        width: 60%;
+    }
+
+    #rechner {
+        width: 80%;
+    }
+
+    #repo {
+        width: 80%;
+    }
+
+    #main6 div div form {
+        width: 100%;
+    }
+
+    #main6 div div form input {
+        width: 100%;
+    }
+
+    #main6 div div form textarea {
+        width: 100%;
+    }
+
+    .fixx p {
+        display: none;
+    }
+
+    .fa-bars {
+        font-size: 17px;
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        text-align: right;
+        float: right;
+        margin: -25px 15px 0 0;
+    }
+
+    #logo {
+        margin-left: 15px;
+    }
+
+    .fa-bars:hover {
+        opacity: 0.5;
+    }
+
+    #down {
+        width: 25px;
+    }
+
+    .ulli {
+        padding-left: 20px;
+        background-color: #7D6F86;
+    }
+
+    header nav ul {
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+        padding-top: 15px;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    header nav ul.open {
+        height: auto;
+    }
+
+    #main-nav {
+        margin: 0;
+    }
+
+    header nav ul li {
+        width: 100%;
+        padding: 5px 0;
+        margin: 0;
+        font-size: 11px;
+        border-top: 1px solid #343a40;
+    }
+
+    header nav ul li:hover {
+        background-color: #eeeeee;
+    }
+
+}
+
+
+
+
+
+
 
 
 
