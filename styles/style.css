@@ -448,7 +448,8 @@ footer div a p {
 
 
     #main1 {
-        background-image: url(../Bild11.jpg);
+        background-image: none;
+        background-color: #758ECD;
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
