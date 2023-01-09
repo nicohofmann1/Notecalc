@@ -440,11 +440,9 @@ footer div a p {
     color: black;
 }
 
-/*iPad Version*/
+/*iPad, Laptop Version*/
 
-@media screen and (max-width: 1366px) {
-
-
+@media screen and (max-width: 1800px) {
 
 
     #main1 {
@@ -605,7 +603,7 @@ footer div a p {
     }
 
     #rocket1 {
-        width: 60%;
+        width: 40%;
     }
 
     #rechner {
@@ -690,9 +688,9 @@ footer div a p {
 
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
     #main4 {
-        height: 300%;
+        height: 320%;
     }
 
 }
