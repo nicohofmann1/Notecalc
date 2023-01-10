@@ -31,7 +31,7 @@ p {
 .fix {
     height: 65px;
     width: 100%;
-    background-color: #8BBD8B;
+    background-color: #708086;
 }
 
 h3 {
@@ -56,7 +56,7 @@ header {
     height: 65px;
     top: 0;
     left: 0;
-    background: #343a40; 
+    background: #4C5760; 
     position: fixed;
 }
 
@@ -141,7 +141,7 @@ header nav ul li:hover {
 
 #main2 {
     height: 100%;
-    background-color: #6CAE75 ;
+    background-color: #708086 ;
 }
 
 .widget {
@@ -162,7 +162,7 @@ header nav ul li:hover {
 }
 
 #box1, #box4{
-    background-color: #8BBD8B;
+    background-color: #93A8AC;
 }
 
 #rocket1 {
@@ -182,7 +182,7 @@ header nav ul li:hover {
 
 #main3 {
     height: 50%;
-    background-color: #fbf8cc;
+    background-color: #A4B2AE;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,7 +228,7 @@ header nav ul li:hover {
 
 #main4 {
     height: 120%;
-    background-color: #7D6F86;
+    background-color: #B5BBAF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,7 +265,7 @@ header nav ul li:hover {
 
 #main5 {
     height: 100%;
-    background-color: #A0DDFF;
+    background-color: #C6C5B1;
 }
 
 .widgetApp {
@@ -286,7 +286,7 @@ header nav ul li:hover {
 }
 
 #box1App, #box4App{
-    background-color: #758ECD;
+    background-color: #CFCAB2;
 }
 
 #Teilen1App {
@@ -308,7 +308,7 @@ header nav ul li:hover {
 #main6 {
     height: 50%;
     width: 100%;
-    background-color: #fbf8cc;
+    background-color: #D7CEB2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -326,7 +326,7 @@ header nav ul li:hover {
     height: 100%;
     width: 100%;
     display: flex;
-    background-color: #fefae0;
+    background-color: #DBD2B9;
 }
 
 .rechterCont1 {
@@ -344,7 +344,7 @@ header nav ul li:hover {
 }
 
 #rechterCont2 {
-    background-color: #dda15e;
+    background-color: #DED6BF;
 }
 
 .insta1 {
@@ -447,7 +447,7 @@ footer div a p {
 
     #main1 {
         background-image: none;
-        background-color: #758ECD;
+        background-color: #4C5760;
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -521,7 +521,7 @@ footer div a p {
 
     #main1 {
         background-image: none;
-        background-color: #758ECD;
+        background-color: #4C5760;
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -654,7 +654,7 @@ footer div a p {
 
     .ulli {
         padding-left: 20px;
-        background-color: #7D6F86;
+        background-color: #5E6C73;
     }
 
     header nav ul {
