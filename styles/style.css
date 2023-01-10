@@ -58,6 +58,7 @@ header {
     left: 0;
     background: #4C5760; 
     position: fixed;
+    border-bottom: #454F57;
 }
 
 #logo:hover {
