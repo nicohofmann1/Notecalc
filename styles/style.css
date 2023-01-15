@@ -409,6 +409,34 @@ form input:first-child {
     color: #494949;
 }
 
+/*Main7*/ 
+
+#main7 {
+    height: 15%;
+    background-color: #CFCAB2;
+}
+
+#main7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #reset {
+    font-family: 'Roboto Slab', serif;
+    background-color: #494949;
+    font-size: 15px;
+    color: white;
+    margin: 10px 10px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: #494949;
+    outline: none;
+    cursor: pointer;
+
+  }
+
 /*Footer*/
 
 #footer {
@@ -416,6 +444,7 @@ form input:first-child {
     background-color: #343a40;
     
 }
+
 
 footer div {
     width: 100%;
